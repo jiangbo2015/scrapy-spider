@@ -72,9 +72,9 @@ ITEM_PIPELINES = {
 }
 FEED_EXPORT_ENCODING = 'utf-8'
 
-IMAGES_STORE = './test'
+IMAGES_STORE = './data'
 
-FILES_STORE = './test'
+FILES_STORE = './data'
 
 LOG_LEVEL = "WARNING"
 
