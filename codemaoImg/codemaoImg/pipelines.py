@@ -20,7 +20,7 @@ class CodemaoimgImgPipeline(ImagesPipeline):
 	def file_path(self, request, response=None, info=None):
 		name = request.meta['name']
 		ext = request.meta['type']
-		if ext not in ['png', 'gif', 'jpg', 'jpeg']:
+		if ext in ['png', 'gif', 'jpg', 'jpeg']:
 			filename = u'full/{0}'.format(name)
 			return filename
 
